@@ -17,7 +17,7 @@ return new class extends Migration
         });
 
         Schema::table('backups', function (Blueprint $table) {
-            DB::update('UPDATE backups SET checksum = CONCAT(\'sha256:\', checksum)');
+            DB::update('UPDATE backups SET checksum = 'sha256:' || checksum)'); # mysql format
         });
     }
 
