@@ -21,8 +21,8 @@ return [
     ],
     'service' => [
         'title' => 'Gestion des services',
-        'extensions' => 'Rallonges',
-        'mounts' => 'Supports',
-        'nests' => 'Nids',
+        'extensions' => 'Extensions',
+        'mounts' => 'Montages',
+        'nests' => 'Types',
     ],
 ];
