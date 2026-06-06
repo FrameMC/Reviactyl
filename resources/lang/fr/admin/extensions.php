@@ -3,7 +3,7 @@
 return [
 
     'label' => 'Extension',
-    'plural-label' => 'Rallonges',
+    'plural-label' => 'Extensions',
 
     'columns' => [
         'id' => 'ID',
